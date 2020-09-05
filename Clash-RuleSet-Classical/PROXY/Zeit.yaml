@@ -1,0 +1,5 @@
+payload:
+  ## > Zeit
+  - DOMAIN-SUFFIX,zeit.co
+  - DOMAIN-SUFFIX,zeit.sh
+  - DOMAIN-SUFFIX,now.sh

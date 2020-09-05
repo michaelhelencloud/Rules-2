@@ -1,0 +1,91 @@
+mixed-port: 8888
+redir-port: 8890
+allow-lan: true
+mode: rule
+ipv6: true
+log-level: info
+external-controller: '127.0.0.1:9090'
+secret: ''
+hosts:
+dns:
+  enable: true
+  listen: 127.0.0.1:1053
+  ipv6: true
+  default-nameserver:
+    - 223.5.5.5
+    - 8.8.8.8
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '*.lan'
+    - msftconnecttest.com
+    - '*.msftconnecttest.com'
+    - msftncsi.com
+    - '*.msftncsi.com'
+    - localhost.ptlogin2.qq.com
+    - localhost.sec.qq.com
+    - +.stun.*.*
+    - +.stun.*.*.*
+    - +.stun.*.*.*.*
+    - lens.l.google.com
+    - stun.l.google.com
+    - '*.n.n.srv.nintendo.net'
+    - .apple.*
+    - +.foo.com
+  nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+    - https://doh.rixcloud.dev/dns-query
+    - https://dns.alidns.com/dns-query
+    - https://cloudflare-dns.com/dns-query
+    - https://dns.google/dns-query
+    - https://doh.opendns.com/dns-query
+    - https://dns.twnic.tw/dns-query
+  fallback:
+    - https://dns.twnic.tw/dns-query
+    - https://dns.quad9.net/dns-query
+    - https://cloudflare-dns.com/dns-query
+    - https://dns.google/dns-query
+    - https://doh.qis.io/dns-query
+    - https://doh.opendns.com/dns-query
+    - https://doh.powerdns.org
+  fallback-filter:
+    geoip: true
+    ipcidr:
+      - 0.0.0.0/32
+      - 240.0.0.0/4
+proxies:
+  - name: UnblockNetEaseMusic
+    type: http
+    server: 192.168.43.215
+    port: '26266'
+    username:
+    password:
+    # tls: true # https
+    # skip-cert-verify: true
+    udp: true
+  - name: pcysanji网易云解锁
+    type: http
+    server: 106.15.250.108
+    port: '30000'
+    username:
+    password:
+    # tls: true # https
+    # skip-cert-verify: true
+    udp: true
+  - name: 如风博客网易云解锁
+    type: ss
+    server: music.desperadoj.com
+    port: '30001'
+    cipher: aes-128-gcm
+    password: desperadoj.com
+    udp: true
+proxy-groups:
+  - name: Proxy
+    type: select
+    proxies:
+      - UnblockNetEaseMusic
+      - pcysanji网易云解锁
+      - 如风博客网易云解锁
+rules:
+  - 'MATCH,Proxy'
