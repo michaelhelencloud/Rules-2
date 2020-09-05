@@ -73,6 +73,7 @@ payload:
   - DOMAIN,3geauymtsgrzdnqbofa5do.ourdvsss.com
   - DOMAIN,3geauymtsgrzdnqbofa5dy.ourdvsss.com
   - DOMAIN,3geauymtsgrzdrcbzfahue.ourdvsss.com
+  - DOMAIN,3geauymtsgrzdrcbzfahuk.ourdvsss.com
   - IP-CIDR,45.43.32.234/32,no-resolve
   - IP-CIDR,106.75.74.76/32,no-resolve
   - IP-CIDR,111.206.25.147/32,no-resolve
