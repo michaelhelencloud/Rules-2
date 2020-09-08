@@ -2141,6 +2141,13 @@ DOMAIN-SUFFIX,addthisedge.com
 # >> Java
 DOMAIN-SUFFIX,java.com
 DOMAIN-SUFFIX,java.net
+## > Oreilly
+DOMAIN-SUFFIX,oreil.ly
+DOMAIN-SUFFIX,oreilly.com
+DOMAIN-SUFFIX,oreilly.com.cn
+DOMAIN-SUFFIX,oreilly.review
+DOMAIN-SUFFIX,oreillystatic.com
+DOMAIN-SUFFIX,orl.ly
 ## > Packagist
 DOMAIN-SUFFIX,packagist.org
 ## > Pagecdn
