@@ -2505,9 +2505,6 @@ DOMAIN-SUFFIX,un.org
 DOMAIN-SUFFIX,unpkg.com
 ## > Unsplash
 DOMAIN-SUFFIX,unsplash.com
-## > V2EX
-DOMAIN-SUFFIX,v2ex.com
-DOMAIN-SUFFIX,v2ex.co
 ## > Verisign
 DOMAIN-SUFFIX,verisign.asia
 DOMAIN-SUFFIX,verisign.biz
@@ -2961,15 +2958,6 @@ DOMAIN-SUFFIX,flickr.net
 DOMAIN-SUFFIX,staticflickr.com
 ## > Yarnpkg
 DOMAIN-SUFFIX,yarnpkg.com
-## > YYets
-DOMAIN-SUFFIX,got001.com
-DOMAIN-SUFFIX,jstucdn.com
-DOMAIN-SUFFIX,playcvn.com
-DOMAIN-SUFFIX,rrys.tv
-DOMAIN-SUFFIX,rrys2019.com
-DOMAIN-SUFFIX,yyets.com
-DOMAIN-SUFFIX,zmz2019.com
-DOMAIN-SUFFIX,zmzapi.com
 ## > Zeit
 DOMAIN-SUFFIX,zeit.co
 DOMAIN-SUFFIX,zeit.sh
@@ -3068,8 +3056,6 @@ DOMAIN-SUFFIX,cambridge.org
 DOMAIN-SUFFIX,cas.org
 DOMAIN-SUFFIX,cell.com
 DOMAIN-SUFFIX,clarivate.com
-DOMAIN-SUFFIX,cnki.net
-DOMAIN-SUFFIX,cqvip.com
 DOMAIN-SUFFIX,csiro.au
 DOMAIN-SUFFIX,deepdyve.com
 DOMAIN-SUFFIX,ebscohost.com
@@ -3631,7 +3617,6 @@ DOMAIN-SUFFIX,bitsnoop.com
 DOMAIN-SUFFIX,bitterwinter.org
 DOMAIN-SUFFIX,bitvise.com
 DOMAIN-SUFFIX,bizhat.com
-DOMAIN-SUFFIX,bjango.com
 DOMAIN-SUFFIX,bjnewlife.org
 DOMAIN-SUFFIX,bjs.org
 DOMAIN-SUFFIX,bjzc.org
@@ -5899,7 +5884,6 @@ DOMAIN-SUFFIX,lidecheng.com
 DOMAIN-SUFFIX,lifemiles.com
 DOMAIN-SUFFIX,lighten.org.tw
 DOMAIN-SUFFIX,lighti.me
-DOMAIN-SUFFIX,lightnovel.cn
 DOMAIN-SUFFIX,lightyearvpn.com
 DOMAIN-SUFFIX,limiao.net
 DOMAIN-SUFFIX,line-apps.com
@@ -6605,7 +6589,6 @@ DOMAIN-SUFFIX,oursteps.com.au
 DOMAIN-SUFFIX,oursweb.net
 DOMAIN-SUFFIX,ourtv.hk
 DOMAIN-SUFFIX,over-blog.com
-DOMAIN-SUFFIX,overcast.fm
 DOMAIN-SUFFIX,overplay.net
 DOMAIN-SUFFIX,oversea.istarshine.com
 DOMAIN-SUFFIX,overstimulate.com
@@ -7171,7 +7154,6 @@ DOMAIN-SUFFIX,shicheng.org
 DOMAIN-SUFFIX,shiksha.com
 DOMAIN-SUFFIX,shinychan.com
 DOMAIN-SUFFIX,shipcamouflage.com
-DOMAIN-SUFFIX,shireyishunjian.com
 DOMAIN-SUFFIX,shitaotv.org
 DOMAIN-SUFFIX,shixiao.org
 DOMAIN-SUFFIX,shizhao.org
