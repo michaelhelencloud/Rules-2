@@ -1859,7 +1859,6 @@ payload:
   - DOMAIN-SUFFIX,up.wps.kingsoft.com
   - DOMAIN-SUFFIX,minfo.wps.cn
   - DOMAIN-SUFFIX,crashes.mo.wps.cn
-  - DOMAIN-SUFFIX,ic.wps.cn
   - DOMAIN-SUFFIX,pcfg.wps.cn
   - DOMAIN-SUFFIX,1.wps.cn
   - DOMAIN-SUFFIX,android-lrcresource.wps.cn
