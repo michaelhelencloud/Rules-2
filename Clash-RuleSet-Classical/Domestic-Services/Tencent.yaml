@@ -57,6 +57,8 @@ payload:
   - DOMAIN-SUFFIX,weixin.com
   - DOMAIN-SUFFIX,weiyun.com
   # >> Tencent Video
+  - DOMAIN-SUFFIX,i.qq.com
+  - DOMAIN-SUFFIX,v.qq.com
   - DOMAIN-SUFFIX,video.qq.com
   # >> QQ Music
   - DOMAIN-SUFFIX,tencentmusic.com
