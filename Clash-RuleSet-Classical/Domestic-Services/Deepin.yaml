@@ -1,0 +1,6 @@
+payload:
+  ## > Deepin
+  - DOMAIN-SUFFIX,deepin.cn
+  - DOMAIN-SUFFIX,deepin.com
+  - DOMAIN-SUFFIX,deepin.io
+  - DOMAIN-SUFFIX,deepin.org

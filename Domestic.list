@@ -514,6 +514,11 @@ DOMAIN-SUFFIX,luojilab.com
 DOMAIN-SUFFIX,mogoo.com
 DOMAIN-SUFFIX,sao.cn
 DOMAIN-SUFFIX,saolife.com
+## > Deepin
+DOMAIN-SUFFIX,deepin.cn
+DOMAIN-SUFFIX,deepin.com
+DOMAIN-SUFFIX,deepin.io
+DOMAIN-SUFFIX,deepin.org
 ## > 滴滴
 DOMAIN-SUFFIX,apptaxi.com.cn
 DOMAIN-SUFFIX,cxyule.com
@@ -617,15 +622,19 @@ DOMAIN-SUFFIX,fengzhibo.com.cn
 DOMAIN-SUFFIX,phoenixtv.com
 DOMAIN-SUFFIX,phoenixtv.com.cn
 ## > 华为
-DOMAIN-SUFFIX,huawei.com
-DOMAIN-SUFFIX,hicloud.com
-DOMAIN-SUFFIX,vmall.com
-DOMAIN-SUFFIX,vmallres.com
+DOMAIN-SUFFIX,dbank.com
 DOMAIN-SUFFIX,dbankcdn.com
+DOMAIN-SUFFIX,harmonyos.com
 DOMAIN-SUFFIX,hc-cdn.com
+DOMAIN-SUFFIX,hicloud.com
+DOMAIN-SUFFIX,hihonor.com
+DOMAIN-SUFFIX,honor.cn
+DOMAIN-SUFFIX,huawei.com
 DOMAIN-SUFFIX,huaweicloud.com
 DOMAIN-SUFFIX,huaweishop.net
 DOMAIN-SUFFIX,hwccpc.com
+DOMAIN-SUFFIX,vmall.com
+DOMAIN-SUFFIX,vmallres.com
 ## > 欢聚时代
 DOMAIN-SUFFIX,huanju.cn
 DOMAIN-SUFFIX,huanju.net
