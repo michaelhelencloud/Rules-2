@@ -2050,9 +2050,7 @@ payload:
   - DOMAIN-SUFFIX,statsfe2.ws.microsoft.com
   - DOMAIN-SUFFIX,telemetry.urs.microsoft.com
   - DOMAIN-SUFFIX,eu.vortex-win.data.microsoft.com
-  - DOMAIN-SUFFIX,events.data.microsoft.com
   - DOMAIN-SUFFIX,settings-sandbox.data.microsoft.com
-  - DOMAIN-SUFFIX,settings-win.data.microsoft.com
   - DOMAIN-SUFFIX,us.vortex-win.data.microsoft.com
   - DOMAIN-SUFFIX,vortex-sandbox.data.microsoft.com
   - DOMAIN-SUFFIX,vortex-win-sandbox.data.microsoft.com
