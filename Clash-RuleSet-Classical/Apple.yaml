@@ -54,6 +54,19 @@ payload:
   - DOMAIN-SUFFIX,apple.com.akadns.net
   - DOMAIN-SUFFIX,courier-push-apple.com.akadns.net
   - DOMAIN-SUFFIX,push-apple.com.akadns.net
+  ## >> Apple One
+  - DOMAIN-SUFFIX,appleone.audio
+  - DOMAIN-SUFFIX,appleone.blog
+  - DOMAIN-SUFFIX,appleone.chat
+  - DOMAIN-SUFFIX,appleone.cloud
+  - DOMAIN-SUFFIX,appleone.club
+  - DOMAIN-SUFFIX,appleone.community
+  - DOMAIN-SUFFIX,appleone.film
+  - DOMAIN-SUFFIX,appleone.guide
+  - DOMAIN-SUFFIX,appleone.host
+  - DOMAIN-SUFFIX,appleone.space
+  - DOMAIN-SUFFIX,appleone.tech
+  - DOMAIN-SUFFIX,appleone.website
   ## >> Apple Store
   - DOMAIN-SUFFIX,aplestore.com
   - DOMAIN-SUFFIX,apple-store.cn

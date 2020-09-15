@@ -1649,6 +1649,9 @@ DOMAIN-SUFFIX,scieron.com
 DOMAIN-SUFFIX,slyip.com
 DOMAIN-SUFFIX,slyip.net
 DOMAIN-SUFFIX,suroot.com
+## > Dubox
+DOMAIN-SUFFIX,dubox.com
+DOMAIN-SUFFIX,duboxcdn.com
 ## > Duckduckgo
 DOMAIN-SUFFIX,ddg.gg
 DOMAIN-SUFFIX,duck.com
