@@ -27,6 +27,9 @@ dns:
 #authentication:
 #  - "firefly:960923"
 hosts:
+tun:
+  enable: true
+  stack: system # or gvisor
 dns:
   enable: true
   listen: 127.0.0.1:1053
