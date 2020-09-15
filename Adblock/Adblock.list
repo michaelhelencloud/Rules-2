@@ -2921,7 +2921,6 @@ DOMAIN-SUFFIX,detect.mb.qq.com
 DOMAIN-SUFFIX,hd2.3g.qq.com
 DOMAIN-SUFFIX,iwx.mail.qq.com
 DOMAIN-SUFFIX,market.m.qq.com
-DOMAIN-SUFFIX,mdt.qq.com
 DOMAIN-SUFFIX,p.buluo.qq.com
 DOMAIN-SUFFIX,reader.sh.vip.qq.com
 DOMAIN-SUFFIX,sec.video.qq.com
@@ -2934,9 +2933,6 @@ DOMAIN-SUFFIX,astat.bugly.qq.com
 DOMAIN-SUFFIX,cdn.ark.qq.com
 DOMAIN-SUFFIX,cm.e.qq.com
 DOMAIN-SUFFIX,ipv4.gdt.qq.com
-DOMAIN-SUFFIX,oth.eve.mdt.qq.com
-DOMAIN-SUFFIX,oth.str.mdt.qq.com
-DOMAIN-SUFFIX,oth.update.mdt.qq.com
 DOMAIN-SUFFIX,report.huatuo.qq.com
 DOMAIN-SUFFIX,rpt.gdt.qq.com
 DOMAIN-SUFFIX,s.gdt.qq.com
