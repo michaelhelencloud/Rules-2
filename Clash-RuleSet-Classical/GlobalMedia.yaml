@@ -666,6 +666,7 @@ payload:
   - DOMAIN-SUFFIX,pandora.com
   ## > PandoraTV
   - DOMAIN-SUFFIX,pandora.tv
+  - DOMAIN-SUFFIX,kmplayer.com
   ## > PayPal
   - DOMAIN-SUFFIX,paypal.com
   - DOMAIN-SUFFIX,paypalobjects.com
