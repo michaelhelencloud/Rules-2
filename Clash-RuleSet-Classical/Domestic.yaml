@@ -1102,6 +1102,7 @@ payload:
   - DOMAIN-SUFFIX,kugoo.com
   - DOMAIN-SUFFIX,kugou.com
   - DOMAIN-SUFFIX,kugou.net
+  - DOMAIN-SUFFIX,kugouipv6.com
   - DOMAIN-SUFFIX,kumi.com
   - DOMAIN-SUFFIX,shuoba.com
   - DOMAIN-SUFFIX,shuoba.me
