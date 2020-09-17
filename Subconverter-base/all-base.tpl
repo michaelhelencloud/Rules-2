@@ -2,20 +2,23 @@
 
 mixed-port: {{ local.clash.mixed_port }}
 redir-port: {{ local.clash.redir_port}}
+#authentication:
+#  - "firefly:WJ960923"
 allow-lan: {{ local.clash.allow_lan }}
-# bind-address: "*"
+bind-address: '*'
 mode: rule
-# When set to false, resolver won't translate hostnames to IPv6 addresses
-ipv6: true
 log-level: {{ local.clash.log_level }}
+ipv6: true
 external-controller: {{ local.clash.api_port}}
+#external-ui: folder
 
 secret: ''
+#interface-name: en0
+tun:
+  enable: true
+  stack: system # or gvisor
 {% if exists("request.clash.dns") %}
 {% if request.clash.dns == "cfw" %}
-interface-name: WLAN
-#authentication:
-#  - "firefly:960923"
 hosts:
 dns:
   enable: true
@@ -23,22 +26,13 @@ dns:
   ipv6: true
 {% endif %}
 {% if request.clash.dns == "cfa" %}
-#interface-name: WLAN
-#authentication:
-#  - "firefly:960923"
 hosts:
-tun:
-  enable: true
-  stack: system # or gvisor
 dns:
   enable: true
   listen: 127.0.0.1:1053
   ipv6: true
 {% endif %}
 {% else %}
-#interface-name: WLAN
-#authentication:
-#  - "firefly:960923"
 hosts:
 dns:
   enable: true
@@ -80,15 +74,15 @@ dns:
 #    - https://dns.quad9.net/dns-query
 #    - https://doh.qis.io/dns-query
 #    - https://doh.powerdns.org
-    #    - 101.101.101.101
-    #    - tcp://119.29.107.85:9090
-    #    - https://doh.dns.sb/dns-query
-    #    - https://dns.rubyfish.cn/dns-query
-    #    - https://sdns.233py.com/dns-query
-    #    - https://edns.233py.com/dns-query
-    #    - tls://cloudflare-dns.com:853
-    #    - tls://dns.google:853
-    #    - tls://dns-tls.qis.io:853
+#    - 101.101.101.101
+#    - tcp://119.29.107.85:9090
+#    - https://doh.dns.sb/dns-query
+#    - https://dns.rubyfish.cn/dns-query
+#    - https://sdns.233py.com/dns-query
+#    - https://edns.233py.com/dns-query
+#    - tls://cloudflare-dns.com:853
+#    - tls://dns.google:853
+#    - tls://dns-tls.qis.io:853
   fallback:
 #    - https://dns.alidns.com/dns-query
     - https://dns.twnic.tw/dns-query
@@ -98,14 +92,14 @@ dns:
     - https://doh.qis.io/dns-query
     - https://doh.opendns.com/dns-query
     - https://doh.powerdns.org
-    #   - tcp://1.1.1.1
-    #    - https://doh.dns.sb/dns-query
-    #    - https://dns.rubyfish.cn/dns-query
-    #    - https://sdns.233py.com/dns-query
-    #    - https://edns.233py.com/dns-query
-    #    - tls://cloudflare-dns.com:853
-    #    - tls://dns.google:853
-    #    - tls://dns-tls.qis.io:853
+#    - tcp://1.1.1.1
+#    - https://doh.dns.sb/dns-query
+#    - https://dns.rubyfish.cn/dns-query
+#    - https://sdns.233py.com/dns-query
+#    - https://edns.233py.com/dns-query
+#    - tls://cloudflare-dns.com:853
+#    - tls://dns.google:853
+#    - tls://dns-tls.qis.io:853
   fallback-filter:
     geoip: true # default
     ipcidr: # ips in these subnets will be considered polluted
